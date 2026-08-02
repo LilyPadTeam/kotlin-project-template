@@ -1,32 +1,12 @@
-# EzLog
-Resusable kotlin function can help logging easier
-## How to use:
-#### 1: Clone this repository
-```
-git clone https://github.com/LilyPadTeam/EzLog.git
-```
-or **copy source code in `src/main.kt`.**
-#### 2: Add library source code to your code
-After adding this library source code to your project. Import it:
-```kotlin
-import com.lpteam.ezLog.*
-```
-Call functions with values:
-```kotlin
-logInfo("starting app...")
-// or other function existing on source code
-```
-> [!NOTE]
-> This repository for people who know how to use kotlin
-> 
-> DO NOT open any issue about why you can't use it.
-## Existing function:
+# Kotlin Project Template
 
-- `logInfo("ur message")`
-- `logError("msg")`
-- `logNotice("msg")`
-- `logDebug("msg")`
-- `logWarn("msg")`
-- `customPrefixLog("prefix", "msg")`
+This is a simple kotlin project template. For everyone, from beginner who want to learn about **Basic Kotlin project structure** or someone want to **Quick start**.
 
-**More!**
+### How to use:
+
+1. Enable Actions (this template's Action is disabled). If the `Actions` tab doesn't exist. Please go to `Settings (project's settings) > Actions > General and tick the checkbox like: "Allow all actions and reusable workflows" `
+2.  Create a directory on `src/main/kotlin/com`. New created directory is `<your-name-or-team>/<project-name>`, replace `,<your-name-or-team>` to you **actual name or team name**, also do it with `<project-name>` by replace it to your **project name**. And remember to add your code too, the code file like this: `main.kt`.
+3.  Delete `_blank`. That's a file that created when making this template, it helps me prevent errors when commiting blank directory.
+4.  Update this README. Replace this to actual **project description**.
+
+And done! Now you're having a simple kotlin project. Star this repository if you feel it helpful!!
