@@ -1,1 +1,1 @@
-rootProject.name = "EzLog"
+rootProject.name = "ROOT_PROJECT_NAME"
